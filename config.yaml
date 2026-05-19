@@ -1,0 +1,37 @@
+
+experiment:
+  name: "test_run" # Output directory name inside result/
+
+instance:
+  path: "instances/test_problem_1.json" # Relative path to the JSON problem instance
+
+
+# ALNS parameters configuration
+alns:
+  max_iterations: 1000 # Total metaheuristic iterations
+  initial_temperature: 1000 # Simulated Annealing initial temperature
+  temperature_factor: 0.99 # Cooling rate (alpha)
+  operator_update_period: 50 # Interval to update operator weights
+  initial_job_removal_prob: 0.6 # Initial probability for job removal operators
+  last_job_removal_prob: 0.2 # Final probability for job removal operators
+  initial_server_removal_prob: 0.2 # Initial probability for server removal operators
+  last_server_removal_prob: 0.2 # Final probability for server removal operators
+  fixed_server_count: # Number of servers to keep fixed in the solution
+
+
+# Gurobi refinement parameters configuration
+gurobi_refinement:
+  use_gurobi_refinement: true # Whether to perform Gurobi refinement after ALNS
+  time_limit: 300 # Time limit for Gurobi refinement in seconds
+
+
+# Objective function weights configuration
+objective:
+  weights:
+    completion_times: 1 # Weight for total completion times
+    server: 1 # Weight for server usage (number of servers used)
+    machine: 1 # Weight for machine usage (number of machines used)
+
+
+random:
+  seed: # Random seed for reproducibility

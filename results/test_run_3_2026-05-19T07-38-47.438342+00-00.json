@@ -1,0 +1,145 @@
+{
+    "meta": {
+        "experiment_name": "test_run_3",
+        "problem_path": "instances/test_problem_3.json",
+        "timestamp": "2026-05-19T07-38-47.438342+00-00"
+    },
+    "config": {
+        "experiment": {
+            "name": "test_run_3"
+        },
+        "instance": {
+            "path": "instances/test_problem_3.json"
+        },
+        "alns": {
+            "max_iterations": 1000,
+            "initial_temperature": 1000.0,
+            "temperature_factor": 0.99,
+            "operator_update_period": 50,
+            "initial_job_removal_prob": 0.6,
+            "last_job_removal_prob": 0.2,
+            "initial_server_removal_prob": 0.2,
+            "last_server_removal_prob": 0.2,
+            "fixed_server_count": null
+        },
+        "gurobi_refinement": {
+            "use_gurobi_refinement": true,
+            "time_limit": 300
+        },
+        "objective": {
+            "weights": {
+                "completion_times": 1.0,
+                "server": 1.0,
+                "machine": 1.0
+            }
+        },
+        "random": {
+            "seed": 330090731618995736544370047666975429143
+        }
+    },
+    "alns": {
+        "assignment_matrix": [
+            [
+                17,
+                12,
+                1,
+                18,
+                10,
+                13,
+                9,
+                2,
+                7,
+                11,
+                4,
+                20,
+                15,
+                6,
+                5,
+                3,
+                14,
+                19,
+                16,
+                8
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5
+            ]
+        ],
+        "used_server_count": 1,
+        "used_machine_count": 3,
+        "completion_times": [
+            158.0,
+            364.0,
+            59.0,
+            136.0,
+            312.0,
+            266.0,
+            45.0,
+            293.0,
+            327.0,
+            248.0,
+            81.0,
+            115.0,
+            283.0,
+            117.0,
+            228.0,
+            232.0,
+            64.0,
+            203.0,
+            163.0,
+            185.0
+        ],
+        "cost": 1.4487706974410435,
+        "runtime": 10.844237804412842
+    },
+    "gurobi_refinement": {
+        "completion_times": [
+            158.0,
+            364.0,
+            59.0,
+            136.0,
+            312.0,
+            266.0,
+            45.0,
+            293.0,
+            327.0,
+            248.0,
+            81.0,
+            115.0,
+            283.0,
+            117.0,
+            228.0,
+            232.0,
+            64.0,
+            203.0,
+            163.0,
+            185.0
+        ],
+        "cost": 1.4487706974410435,
+        "runtime": 0.12044143676757812,
+        "status": 2,
+        "solution_count": 10,
+        "optimization_time": 0.07194209098815918,
+        "constraint_time": 0.048288822174072266,
+        "variable_assignment_time": 0.00020885467529296875
+    }
+}

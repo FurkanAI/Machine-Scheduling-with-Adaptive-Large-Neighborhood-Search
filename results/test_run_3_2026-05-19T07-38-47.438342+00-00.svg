@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14700.0" height="670" viewBox="0 0 14700.0 670">
+<style>
+  .title { font-family: "Segoe UI", sans-serif; font-size: 22px; font-weight: bold; fill: #2c3e50; }
+  .axis-label { font-family: "Segoe UI", sans-serif; font-size: 13px; fill: #2c3e50; font-weight: bold; }
+  .tick-text { font-family: "Segoe UI", sans-serif; font-size: 10px; fill: #2c3e50; font-weight: bold; }
+  .bar-main-text { font-family: "Segoe UI", sans-serif; font-size: 12px; font-weight: bold; fill: white; text-anchor: middle; }
+  .bar-sub-text { font-family: "Segoe UI", sans-serif; font-size: 10px; fill: rgba(255,255,255,0.9); text-anchor: middle; }
+  .setup-main-text { font-family: "Segoe UI", sans-serif; font-size: 11px; font-weight: bold; fill: #57606f; text-anchor: middle; }
+  .setup-sub-text { font-family: "Segoe UI", sans-serif; font-size: 10px; fill: #747d8c; text-anchor: middle; }
+  .legend-text { font-family: "Segoe UI", sans-serif; font-size: 12px; font-weight: bold; fill: #2c3e50; }
+  .critical-line { stroke: #b2bec3; stroke-width: 0.7; stroke-dasharray: 2,4; }
+  .machine-line { stroke: #f1f2f6; stroke-width: 2; }
+<title>Strict Gantt Chart</title></style>
+<defs>
+  <pattern id="diagonal-stripe" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" style="stroke:#ced6e0; stroke-width:3" />
+    <line x1="0" y1="0" x2="0" y2="8" style="stroke:#f8f9fa; stroke-width:5" transform="translate(4,0)" />
+  </pattern>
+</defs>
+<rect width="14700.0" height="670" fill="#ffffff"/>
+<text x="90" y="42" text-anchor="start" class="title">Production Schedule Gantt Chart</text>
+  <rect x="14310.0" y="25" width="40" height="22" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="1" rx="2"/>
+  <text x="14360.0" y="40" class="legend-text">Setup Operation</text>
+  <rect x="14490.0" y="25" width="40" height="22" fill="#3498db" stroke="#2c3e50" stroke-width="0.5" rx="3"/>
+  <text x="14540.0" y="40" class="legend-text">Processing Operation</text>
+  <line x1="90.0" y1="90" x2="90.0" y2="590" class="critical-line" />
+  <text x="90.0" y="608" text-anchor="middle" class="tick-text">0</text>
+  <line x1="450.0" y1="90" x2="450.0" y2="590" class="critical-line" />
+  <text x="450.0" y="608" text-anchor="middle" class="tick-text">9.0</text>
+  <line x1="890.0" y1="90" x2="890.0" y2="590" class="critical-line" />
+  <text x="890.0" y="608" text-anchor="middle" class="tick-text">20.0</text>
+  <line x1="1370.0" y1="90" x2="1370.0" y2="590" class="critical-line" />
+  <text x="1370.0" y="608" text-anchor="middle" class="tick-text">32.0</text>
+  <line x1="1890.0" y1="90" x2="1890.0" y2="590" class="critical-line" />
+  <text x="1890.0" y="608" text-anchor="middle" class="tick-text">45.0</text>
+  <line x1="2210.0" y1="90" x2="2210.0" y2="590" class="critical-line" />
+  <text x="2210.0" y="608" text-anchor="middle" class="tick-text">53.0</text>
+  <line x1="2450.0" y1="90" x2="2450.0" y2="590" class="critical-line" />
+  <text x="2450.0" y="608" text-anchor="middle" class="tick-text">59.0</text>
+  <line x1="2650.0" y1="90" x2="2650.0" y2="590" class="critical-line" />
+  <text x="2650.0" y="608" text-anchor="middle" class="tick-text">64.0</text>
+  <line x1="3210.0" y1="90" x2="3210.0" y2="590" class="critical-line" />
+  <text x="3210.0" y="608" text-anchor="middle" class="tick-text">78.0</text>
+  <line x1="3330.0" y1="90" x2="3330.0" y2="590" class="critical-line" />
+  <text x="3330.0" y="608" text-anchor="middle" class="tick-text">81.0</text>
+  <line x1="3890.0" y1="90" x2="3890.0" y2="590" class="critical-line" />
+  <text x="3890.0" y="608" text-anchor="middle" class="tick-text">95.0</text>
+  <line x1="4690.0" y1="90" x2="4690.0" y2="590" class="critical-line" />
+  <text x="4690.0" y="608" text-anchor="middle" class="tick-text">115.0</text>
+  <line x1="4770.0" y1="90" x2="4770.0" y2="590" class="critical-line" />
+  <text x="4770.0" y="608" text-anchor="middle" class="tick-text">117.0</text>
+  <line x1="4930.0" y1="90" x2="4930.0" y2="590" class="critical-line" />
+  <text x="4930.0" y="608" text-anchor="middle" class="tick-text">121.0</text>
+  <line x1="5450.0" y1="90" x2="5450.0" y2="590" class="critical-line" />
+  <text x="5450.0" y="608" text-anchor="middle" class="tick-text">134.0</text>
+  <line x1="5530.0" y1="90" x2="5530.0" y2="590" class="critical-line" />
+  <text x="5530.0" y="608" text-anchor="middle" class="tick-text">136.0</text>
+  <line x1="5930.0" y1="90" x2="5930.0" y2="590" class="critical-line" />
+  <text x="5930.0" y="608" text-anchor="middle" class="tick-text">146.0</text>
+  <line x1="6410.0" y1="90" x2="6410.0" y2="590" class="critical-line" />
+  <text x="6410.0" y="608" text-anchor="middle" class="tick-text">158.0</text>
+  <line x1="6610.0" y1="90" x2="6610.0" y2="590" class="critical-line" />
+  <text x="6610.0" y="608" text-anchor="middle" class="tick-text">163.0</text>
+  <line x1="6770.0" y1="90" x2="6770.0" y2="590" class="critical-line" />
+  <text x="6770.0" y="608" text-anchor="middle" class="tick-text">167.0</text>
+  <line x1="7130.0" y1="90" x2="7130.0" y2="590" class="critical-line" />
+  <text x="7130.0" y="608" text-anchor="middle" class="tick-text">176.0</text>
+  <line x1="7490.0" y1="90" x2="7490.0" y2="590" class="critical-line" />
+  <text x="7490.0" y="608" text-anchor="middle" class="tick-text">185.0</text>
+  <line x1="8090.0" y1="90" x2="8090.0" y2="590" class="critical-line" />
+  <text x="8090.0" y="608" text-anchor="middle" class="tick-text">200.0</text>
+  <line x1="8210.0" y1="90" x2="8210.0" y2="590" class="critical-line" />
+  <text x="8210.0" y="608" text-anchor="middle" class="tick-text">203.0</text>
+  <line x1="8770.0" y1="90" x2="8770.0" y2="590" class="critical-line" />
+  <text x="8770.0" y="608" text-anchor="middle" class="tick-text">217.0</text>
+  <line x1="9210.0" y1="90" x2="9210.0" y2="590" class="critical-line" />
+  <text x="9210.0" y="608" text-anchor="middle" class="tick-text">228.0</text>
+  <line x1="9370.0" y1="90" x2="9370.0" y2="590" class="critical-line" />
+  <text x="9370.0" y="608" text-anchor="middle" class="tick-text">232.0</text>
+  <line x1="9610.0" y1="90" x2="9610.0" y2="590" class="critical-line" />
+  <text x="9610.0" y="608" text-anchor="middle" class="tick-text">238.0</text>
+  <line x1="10010.0" y1="90" x2="10010.0" y2="590" class="critical-line" />
+  <text x="10010.0" y="608" text-anchor="middle" class="tick-text">248.0</text>
+  <line x1="10050.0" y1="90" x2="10050.0" y2="590" class="critical-line" />
+  <text x="10050.0" y="608" text-anchor="middle" class="tick-text">249.0</text>
+  <line x1="10290.0" y1="90" x2="10290.0" y2="590" class="critical-line" />
+  <text x="10290.0" y="608" text-anchor="middle" class="tick-text">255.0</text>
+  <line x1="10730.0" y1="90" x2="10730.0" y2="590" class="critical-line" />
+  <text x="10730.0" y="608" text-anchor="middle" class="tick-text">266.0</text>
+  <line x1="11010.0" y1="90" x2="11010.0" y2="590" class="critical-line" />
+  <text x="11010.0" y="608" text-anchor="middle" class="tick-text">273.0</text>
+  <line x1="11410.0" y1="90" x2="11410.0" y2="590" class="critical-line" />
+  <text x="11410.0" y="608" text-anchor="middle" class="tick-text">283.0</text>
+  <line x1="11810.0" y1="90" x2="11810.0" y2="590" class="critical-line" />
+  <text x="11810.0" y="608" text-anchor="middle" class="tick-text">293.0</text>
+  <line x1="11890.0" y1="90" x2="11890.0" y2="590" class="critical-line" />
+  <text x="11890.0" y="608" text-anchor="middle" class="tick-text">295.0</text>
+  <line x1="12570.0" y1="90" x2="12570.0" y2="590" class="critical-line" />
+  <text x="12570.0" y="608" text-anchor="middle" class="tick-text">312.0</text>
+  <line x1="13170.0" y1="90" x2="13170.0" y2="590" class="critical-line" />
+  <text x="13170.0" y="608" text-anchor="middle" class="tick-text">327.0</text>
+  <line x1="13490.0" y1="90" x2="13490.0" y2="590" class="critical-line" />
+  <text x="13490.0" y="608" text-anchor="middle" class="tick-text">335.0</text>
+  <line x1="14650.0" y1="90" x2="14650.0" y2="590" class="critical-line" />
+  <text x="14650.0" y="608" text-anchor="middle" class="tick-text">364.0</text>
+<text x="7370.0" y="655" text-anchor="middle" class="axis-label">Time</text>
+  <text x="75" y="145.0" text-anchor="end" class="axis-label">Machine 1</text>
+  <line x1="90" y1="182.0" x2="14650.0" y2="182.0" class="machine-line"/>
+  <rect x="890.0" y="110.0" width="480.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="1130.0" y="138.0" class="setup-main-text">J17</text>
+  <text x="1130.0" y="151.0" class="setup-sub-text">d=12</text>
+  <rect x="1370.0" y="110.0" width="1280.0" height="60" fill="#1abc9c" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="2010.0" y="138.0" class="bar-main-text">J17</text>
+  <text x="2010.0" y="151.0" class="bar-sub-text">d=32</text>
+  <rect x="2650.0" y="110.0" width="560.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2930.0" y="138.0" class="setup-main-text">J12</text>
+  <text x="2930.0" y="151.0" class="setup-sub-text">d=14</text>
+  <rect x="3210.0" y="110.0" width="1480.0" height="60" fill="#2ecc71" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="3950.0" y="138.0" class="bar-main-text">J12</text>
+  <text x="3950.0" y="151.0" class="bar-sub-text">d=37</text>
+  <rect x="4690.0" y="110.0" width="240.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="4810.0" y="138.0" class="setup-main-text">J1</text>
+  <text x="4810.0" y="151.0" class="setup-sub-text">d=6</text>
+  <rect x="4930.0" y="110.0" width="1480.0" height="60" fill="#3498db" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="5670.0" y="138.0" class="bar-main-text">J1</text>
+  <text x="5670.0" y="151.0" class="bar-sub-text">d=37</text>
+  <rect x="6410.0" y="110.0" width="360.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="6590.0" y="138.0" class="setup-main-text">J18</text>
+  <text x="6590.0" y="151.0" class="setup-sub-text">d=9</text>
+  <rect x="6770.0" y="110.0" width="1440.0" height="60" fill="#34495e" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="7490.0" y="138.0" class="bar-main-text">J18</text>
+  <text x="7490.0" y="151.0" class="bar-sub-text">d=36</text>
+  <rect x="8210.0" y="110.0" width="560.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="8490.0" y="138.0" class="setup-main-text">J10</text>
+  <text x="8490.0" y="151.0" class="setup-sub-text">d=14</text>
+  <rect x="8770.0" y="110.0" width="1240.0" height="60" fill="#6c5ce7" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="9390.0" y="138.0" class="bar-main-text">J10</text>
+  <text x="9390.0" y="151.0" class="bar-sub-text">d=31</text>
+  <rect x="10050.0" y="110.0" width="240.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="10170.0" y="138.0" class="setup-main-text">J13</text>
+  <text x="10170.0" y="151.0" class="setup-sub-text">d=6</text>
+  <rect x="10290.0" y="110.0" width="1120.0" height="60" fill="#9b59b6" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="10850.0" y="138.0" class="bar-main-text">J13</text>
+  <text x="10850.0" y="151.0" class="bar-sub-text">d=28</text>
+  <rect x="11410.0" y="110.0" width="480.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="11650.0" y="138.0" class="setup-main-text">J9</text>
+  <text x="11650.0" y="151.0" class="setup-sub-text">d=12</text>
+  <rect x="11890.0" y="110.0" width="1280.0" height="60" fill="#fdcb6e" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="12530.0" y="138.0" class="bar-main-text">J9</text>
+  <text x="12530.0" y="151.0" class="bar-sub-text">d=32</text>
+  <rect x="13170.0" y="110.0" width="320.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="13330.0" y="138.0" class="setup-main-text">J2</text>
+  <text x="13330.0" y="151.0" class="setup-sub-text">d=8</text>
+  <rect x="13490.0" y="110.0" width="1160.0" height="60" fill="#2ecc71" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="14070.0" y="138.0" class="bar-main-text">J2</text>
+  <text x="14070.0" y="151.0" class="bar-sub-text">d=29</text>
+  <text x="75" y="245.0" text-anchor="end" class="axis-label">Machine 2</text>
+  <line x1="90" y1="282.0" x2="14650.0" y2="282.0" class="machine-line"/>
+  <text x="75" y="345.0" text-anchor="end" class="axis-label">Machine 3</text>
+  <line x1="90" y1="382.0" x2="14650.0" y2="382.0" class="machine-line"/>
+  <text x="75" y="445.0" text-anchor="end" class="axis-label">Machine 4</text>
+  <line x1="90" y1="482.0" x2="14650.0" y2="482.0" class="machine-line"/>
+  <rect x="450.0" y="410.0" width="440.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="670.0" y="438.0" class="setup-main-text">J7</text>
+  <text x="670.0" y="451.0" class="setup-sub-text">d=11</text>
+  <rect x="890.0" y="410.0" width="1000.0" height="60" fill="#1abc9c" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="1390.0" y="438.0" class="bar-main-text">J7</text>
+  <text x="1390.0" y="451.0" class="bar-sub-text">d=25</text>
+  <rect x="1890.0" y="410.0" width="320.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2050.0" y="438.0" class="setup-main-text">J11</text>
+  <text x="2050.0" y="451.0" class="setup-sub-text">d=8</text>
+  <rect x="2210.0" y="410.0" width="1120.0" height="60" fill="#3498db" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="2770.0" y="438.0" class="bar-main-text">J11</text>
+  <text x="2770.0" y="451.0" class="bar-sub-text">d=28</text>
+  <rect x="3330.0" y="410.0" width="560.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="3610.0" y="438.0" class="setup-main-text">J4</text>
+  <text x="3610.0" y="451.0" class="setup-sub-text">d=14</text>
+  <rect x="3890.0" y="410.0" width="1640.0" height="60" fill="#f1c40f" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="4710.0" y="438.0" class="bar-main-text">J4</text>
+  <text x="4710.0" y="451.0" class="bar-sub-text">d=41</text>
+  <rect x="5530.0" y="410.0" width="400.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="5730.0" y="438.0" class="setup-main-text">J20</text>
+  <text x="5730.0" y="451.0" class="setup-sub-text">d=10</text>
+  <rect x="5930.0" y="410.0" width="1560.0" height="60" fill="#6c5ce7" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="6710.0" y="438.0" class="bar-main-text">J20</text>
+  <text x="6710.0" y="451.0" class="bar-sub-text">d=39</text>
+  <rect x="7490.0" y="410.0" width="600.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="7790.0" y="438.0" class="setup-main-text">J15</text>
+  <text x="7790.0" y="451.0" class="setup-sub-text">d=15</text>
+  <rect x="8090.0" y="410.0" width="1120.0" height="60" fill="#e67e22" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="8650.0" y="438.0" class="bar-main-text">J15</text>
+  <text x="8650.0" y="451.0" class="bar-sub-text">d=28</text>
+  <rect x="9210.0" y="410.0" width="400.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="9410.0" y="438.0" class="setup-main-text">J6</text>
+  <text x="9410.0" y="451.0" class="setup-sub-text">d=10</text>
+  <rect x="9610.0" y="410.0" width="1120.0" height="60" fill="#e74c3c" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="10170.0" y="438.0" class="bar-main-text">J6</text>
+  <text x="10170.0" y="451.0" class="bar-sub-text">d=28</text>
+  <rect x="10730.0" y="410.0" width="280.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="10870.0" y="438.0" class="setup-main-text">J5</text>
+  <text x="10870.0" y="451.0" class="setup-sub-text">d=7</text>
+  <rect x="11010.0" y="410.0" width="1560.0" height="60" fill="#e67e22" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="11790.0" y="438.0" class="bar-main-text">J5</text>
+  <text x="11790.0" y="451.0" class="bar-sub-text">d=39</text>
+  <text x="75" y="545.0" text-anchor="end" class="axis-label">Machine 5</text>
+  <line x1="90" y1="582.0" x2="14650.0" y2="582.0" class="machine-line"/>
+  <rect x="90.0" y="510.0" width="360.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="270.0" y="538.0" class="setup-main-text">J3</text>
+  <text x="270.0" y="551.0" class="setup-sub-text">d=9</text>
+  <rect x="450.0" y="510.0" width="2000.0" height="60" fill="#9b59b6" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="1450.0" y="538.0" class="bar-main-text">J3</text>
+  <text x="1450.0" y="551.0" class="bar-sub-text">d=50</text>
+  <rect x="2450.0" y="510.0" width="200.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2550.0" y="538.0" class="setup-main-text">J14</text>
+  <text x="2550.0" y="551.0" class="setup-sub-text">d=5</text>
+  <rect x="2650.0" y="510.0" width="2120.0" height="60" fill="#f1c40f" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="3710.0" y="538.0" class="bar-main-text">J14</text>
+  <text x="3710.0" y="551.0" class="bar-sub-text">d=53</text>
+  <rect x="4930.0" y="510.0" width="520.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="5190.0" y="538.0" class="setup-main-text">J19</text>
+  <text x="5190.0" y="551.0" class="setup-sub-text">d=13</text>
+  <rect x="5450.0" y="510.0" width="1160.0" height="60" fill="#fdcb6e" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="6030.0" y="538.0" class="bar-main-text">J19</text>
+  <text x="6030.0" y="551.0" class="bar-sub-text">d=29</text>
+  <rect x="6770.0" y="510.0" width="360.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="6950.0" y="538.0" class="setup-main-text">J16</text>
+  <text x="6950.0" y="551.0" class="setup-sub-text">d=9</text>
+  <rect x="7130.0" y="510.0" width="2240.0" height="60" fill="#e74c3c" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="8250.0" y="538.0" class="bar-main-text">J16</text>
+  <text x="8250.0" y="551.0" class="bar-sub-text">d=56</text>
+  <rect x="9610.0" y="510.0" width="440.0" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="9830.0" y="538.0" class="setup-main-text">J8</text>
+  <text x="9830.0" y="551.0" class="setup-sub-text">d=11</text>
+  <rect x="10050.0" y="510.0" width="1760.0" height="60" fill="#34495e" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="10930.0" y="538.0" class="bar-main-text">J8</text>
+  <text x="10930.0" y="551.0" class="bar-sub-text">d=44</text>
+  <line x1="90" y1="90" x2="90" y2="590" stroke="#2c3e50" stroke-width="2" />
+  <line x1="90" y1="590" x2="14650.0" y2="590" stroke="#2c3e50" stroke-width="2" />
+</svg>

@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5353.0" height="570" viewBox="0 0 5353.0 570">
+<style>
+  .title { font-family: "Segoe UI", sans-serif; font-size: 22px; font-weight: bold; fill: #2c3e50; }
+  .axis-label { font-family: "Segoe UI", sans-serif; font-size: 13px; fill: #2c3e50; font-weight: bold; }
+  .tick-text { font-family: "Segoe UI", sans-serif; font-size: 10px; fill: #2c3e50; font-weight: bold; }
+  .bar-main-text { font-family: "Segoe UI", sans-serif; font-size: 12px; font-weight: bold; fill: white; text-anchor: middle; }
+  .bar-sub-text { font-family: "Segoe UI", sans-serif; font-size: 10px; fill: rgba(255,255,255,0.9); text-anchor: middle; }
+  .setup-main-text { font-family: "Segoe UI", sans-serif; font-size: 11px; font-weight: bold; fill: #57606f; text-anchor: middle; }
+  .setup-sub-text { font-family: "Segoe UI", sans-serif; font-size: 10px; fill: #747d8c; text-anchor: middle; }
+  .legend-text { font-family: "Segoe UI", sans-serif; font-size: 12px; font-weight: bold; fill: #2c3e50; }
+  .critical-line { stroke: #b2bec3; stroke-width: 0.7; stroke-dasharray: 2,4; }
+  .machine-line { stroke: #f1f2f6; stroke-width: 2; }
+<title>Strict Gantt Chart</title></style>
+<defs>
+  <pattern id="diagonal-stripe" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="8" style="stroke:#ced6e0; stroke-width:3" />
+    <line x1="0" y1="0" x2="0" y2="8" style="stroke:#f8f9fa; stroke-width:5" transform="translate(4,0)" />
+  </pattern>
+</defs>
+<rect width="5353.0" height="570" fill="#ffffff"/>
+<text x="90" y="42" text-anchor="start" class="title">Production Schedule Gantt Chart</text>
+  <rect x="4963.0" y="25" width="40" height="22" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="1" rx="2"/>
+  <text x="5013.0" y="40" class="legend-text">Setup Operation</text>
+  <rect x="5143.0" y="25" width="40" height="22" fill="#3498db" stroke="#2c3e50" stroke-width="0.5" rx="3"/>
+  <text x="5193.0" y="40" class="legend-text">Processing Operation</text>
+  <line x1="90.0" y1="90" x2="90.0" y2="490" class="critical-line" />
+  <text x="90.0" y="508" text-anchor="middle" class="tick-text">0</text>
+  <line x1="236.65728900255755" y1="90" x2="236.65728900255755" y2="490" class="critical-line" />
+  <text x="236.65728900255755" y="508" text-anchor="middle" class="tick-text">11.0</text>
+  <line x1="463.309462915601" y1="90" x2="463.309462915601" y2="490" class="critical-line" />
+  <text x="463.309462915601" y="508" text-anchor="middle" class="tick-text">28.0</text>
+  <line x1="649.9641943734015" y1="90" x2="649.9641943734015" y2="490" class="critical-line" />
+  <text x="649.9641943734015" y="508" text-anchor="middle" class="tick-text">42.0</text>
+  <line x1="849.9514066496163" y1="90" x2="849.9514066496163" y2="490" class="critical-line" />
+  <text x="849.9514066496163" y="508" text-anchor="middle" class="tick-text">57.0</text>
+  <line x1="903.2813299232736" y1="90" x2="903.2813299232736" y2="490" class="critical-line" />
+  <text x="903.2813299232736" y="508" text-anchor="middle" class="tick-text">61.0</text>
+  <line x1="1009.9411764705882" y1="90" x2="1009.9411764705882" y2="490" class="critical-line" />
+  <text x="1009.9411764705882" y="508" text-anchor="middle" class="tick-text">69.0</text>
+  <line x1="1383.2506393861893" y1="90" x2="1383.2506393861893" y2="490" class="critical-line" />
+  <text x="1383.2506393861893" y="508" text-anchor="middle" class="tick-text">97.0</text>
+  <line x1="1596.5703324808183" y1="90" x2="1596.5703324808183" y2="490" class="critical-line" />
+  <text x="1596.5703324808183" y="508" text-anchor="middle" class="tick-text">113.0</text>
+  <line x1="1636.5677749360614" y1="90" x2="1636.5677749360614" y2="490" class="critical-line" />
+  <text x="1636.5677749360614" y="521" text-anchor="middle" class="tick-text">116.0</text>
+  <line x1="1796.5575447570332" y1="90" x2="1796.5575447570332" y2="490" class="critical-line" />
+  <text x="1796.5575447570332" y="508" text-anchor="middle" class="tick-text">128.0</text>
+  <line x1="1956.547314578005" y1="90" x2="1956.547314578005" y2="490" class="critical-line" />
+  <text x="1956.547314578005" y="508" text-anchor="middle" class="tick-text">140.0</text>
+  <line x1="2076.539641943734" y1="90" x2="2076.539641943734" y2="490" class="critical-line" />
+  <text x="2076.539641943734" y="508" text-anchor="middle" class="tick-text">149.0</text>
+  <line x1="2236.529411764706" y1="90" x2="2236.529411764706" y2="490" class="critical-line" />
+  <text x="2236.529411764706" y="508" text-anchor="middle" class="tick-text">161.0</text>
+  <line x1="2423.1841432225065" y1="90" x2="2423.1841432225065" y2="490" class="critical-line" />
+  <text x="2423.1841432225065" y="508" text-anchor="middle" class="tick-text">175.0</text>
+  <line x1="2556.5089514066494" y1="90" x2="2556.5089514066494" y2="490" class="critical-line" />
+  <text x="2556.5089514066494" y="508" text-anchor="middle" class="tick-text">185.0</text>
+  <line x1="2649.8363171355495" y1="90" x2="2649.8363171355495" y2="490" class="critical-line" />
+  <text x="2649.8363171355495" y="508" text-anchor="middle" class="tick-text">192.0</text>
+  <line x1="2756.4961636828643" y1="90" x2="2756.4961636828643" y2="490" class="critical-line" />
+  <text x="2756.4961636828643" y="508" text-anchor="middle" class="tick-text">200.0</text>
+  <line x1="2876.488491048593" y1="90" x2="2876.488491048593" y2="490" class="critical-line" />
+  <text x="2876.488491048593" y="508" text-anchor="middle" class="tick-text">209.0</text>
+  <line x1="3143.13810741688" y1="90" x2="3143.13810741688" y2="490" class="critical-line" />
+  <text x="3143.13810741688" y="508" text-anchor="middle" class="tick-text">229.0</text>
+  <line x1="3223.1329923273656" y1="90" x2="3223.1329923273656" y2="490" class="critical-line" />
+  <text x="3223.1329923273656" y="508" text-anchor="middle" class="tick-text">235.0</text>
+  <line x1="3316.4603580562657" y1="90" x2="3316.4603580562657" y2="490" class="critical-line" />
+  <text x="3316.4603580562657" y="508" text-anchor="middle" class="tick-text">242.0</text>
+  <line x1="3556.4450127877235" y1="90" x2="3556.4450127877235" y2="490" class="critical-line" />
+  <text x="3556.4450127877235" y="508" text-anchor="middle" class="tick-text">260.0</text>
+  <line x1="3783.097186700767" y1="90" x2="3783.097186700767" y2="490" class="critical-line" />
+  <text x="3783.097186700767" y="508" text-anchor="middle" class="tick-text">277.0</text>
+  <line x1="3943.086956521739" y1="90" x2="3943.086956521739" y2="490" class="critical-line" />
+  <text x="3943.086956521739" y="508" text-anchor="middle" class="tick-text">289.0</text>
+  <line x1="4089.7442455242963" y1="90" x2="4089.7442455242963" y2="490" class="critical-line" />
+  <text x="4089.7442455242963" y="508" text-anchor="middle" class="tick-text">300.0</text>
+  <line x1="4196.404092071611" y1="90" x2="4196.404092071611" y2="490" class="critical-line" />
+  <text x="4196.404092071611" y="508" text-anchor="middle" class="tick-text">308.0</text>
+  <line x1="4703.038363171355" y1="90" x2="4703.038363171355" y2="490" class="critical-line" />
+  <text x="4703.038363171355" y="508" text-anchor="middle" class="tick-text">346.0</text>
+  <line x1="4783.0332480818415" y1="90" x2="4783.0332480818415" y2="490" class="critical-line" />
+  <text x="4783.0332480818415" y="508" text-anchor="middle" class="tick-text">352.0</text>
+  <line x1="4823.030690537084" y1="90" x2="4823.030690537084" y2="490" class="critical-line" />
+  <text x="4823.030690537084" y="521" text-anchor="middle" class="tick-text">355.0</text>
+  <line x1="5303.0" y1="90" x2="5303.0" y2="490" class="critical-line" />
+  <text x="5303.0" y="508" text-anchor="middle" class="tick-text">391.0</text>
+<text x="2696.5" y="555" text-anchor="middle" class="axis-label">Time</text>
+  <text x="75" y="145.0" text-anchor="end" class="axis-label">Machine 1</text>
+  <line x1="90" y1="182.0" x2="5303.0" y2="182.0" class="machine-line"/>
+  <text x="75" y="245.0" text-anchor="end" class="axis-label">Machine 2</text>
+  <line x1="90" y1="282.0" x2="5303.0" y2="282.0" class="machine-line"/>
+  <rect x="90.0" y="210.0" width="146.65728900255755" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="163.32864450127877" y="238.0" class="setup-main-text">J10</text>
+  <text x="163.32864450127877" y="251.0" class="setup-sub-text">d=11</text>
+  <rect x="236.65728900255755" y="210.0" width="413.30690537084394" height="60" fill="#6c5ce7" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="443.31074168797954" y="238.0" class="bar-main-text">J10</text>
+  <text x="443.31074168797954" y="251.0" class="bar-sub-text">d=31</text>
+  <rect x="649.9641943734015" y="210.0" width="199.9872122762148" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="749.9578005115088" y="238.0" class="setup-main-text">J14</text>
+  <text x="749.9578005115088" y="251.0" class="setup-sub-text">d=15</text>
+  <rect x="849.9514066496163" y="210.0" width="786.6163682864451" height="60" fill="#f1c40f" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="1243.259590792839" y="238.0" class="bar-main-text">J14</text>
+  <text x="1243.259590792839" y="251.0" class="bar-sub-text">d=59</text>
+  <rect x="1636.5677749360614" y="210.0" width="159.9897698209718" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="1716.5626598465474" y="238.0" class="setup-main-text">J12</text>
+  <text x="1716.5626598465474" y="251.0" class="setup-sub-text">d=12</text>
+  <rect x="1796.5575447570332" y="210.0" width="439.9718670076727" height="60" fill="#2ecc71" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="2016.5434782608695" y="238.0" class="bar-main-text">J12</text>
+  <text x="2016.5434782608695" y="251.0" class="bar-sub-text">d=33</text>
+  <rect x="2236.529411764706" y="210.0" width="186.6547314578006" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2329.8567774936064" y="238.0" class="setup-main-text">J13</text>
+  <text x="2329.8567774936064" y="251.0" class="setup-sub-text">d=14</text>
+  <rect x="2423.1841432225065" y="210.0" width="333.31202046035787" height="60" fill="#9b59b6" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="2589.8401534526856" y="238.0" class="bar-main-text">J13</text>
+  <text x="2589.8401534526856" y="251.0" class="bar-sub-text">d=25</text>
+  <rect x="2756.4961636828643" y="210.0" width="119.99232736572867" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2816.4923273657287" y="238.0" class="setup-main-text">J15</text>
+  <text x="2816.4923273657287" y="251.0" class="setup-sub-text">d=9</text>
+  <rect x="2876.488491048593" y="210.0" width="439.9718670076727" height="60" fill="#e67e22" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="3096.4744245524294" y="238.0" class="bar-main-text">J15</text>
+  <text x="3096.4744245524294" y="251.0" class="bar-sub-text">d=33</text>
+  <rect x="3316.4603580562657" y="210.0" width="239.9846547314578" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="3436.452685421995" y="238.0" class="setup-main-text">J3</text>
+  <text x="3436.452685421995" y="251.0" class="setup-sub-text">d=18</text>
+  <rect x="3556.4450127877235" y="210.0" width="533.2992327365728" height="60" fill="#9b59b6" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="3823.09462915601" y="238.0" class="bar-main-text">J3</text>
+  <text x="3823.09462915601" y="251.0" class="bar-sub-text">d=40</text>
+  <rect x="4089.7442455242963" y="210.0" width="106.65984654731437" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="4143.0741687979535" y="238.0" class="setup-main-text">J9</text>
+  <text x="4143.0741687979535" y="251.0" class="setup-sub-text">d=8</text>
+  <rect x="4196.404092071611" y="210.0" width="586.6291560102309" height="60" fill="#fdcb6e" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="4489.718670076726" y="238.0" class="bar-main-text">J9</text>
+  <text x="4489.718670076726" y="251.0" class="bar-sub-text">d=44</text>
+  <text x="75" y="345.0" text-anchor="end" class="axis-label">Machine 3</text>
+  <line x1="90" y1="382.0" x2="5303.0" y2="382.0" class="machine-line"/>
+  <text x="75" y="445.0" text-anchor="end" class="axis-label">Machine 4</text>
+  <line x1="90" y1="482.0" x2="5303.0" y2="482.0" class="machine-line"/>
+  <rect x="236.65728900255755" y="410.0" width="226.65217391304344" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="349.98337595907924" y="438.0" class="setup-main-text">J11</text>
+  <text x="349.98337595907924" y="451.0" class="setup-sub-text">d=17</text>
+  <rect x="463.309462915601" y="410.0" width="439.9718670076726" height="60" fill="#3498db" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="683.2953964194373" y="438.0" class="bar-main-text">J11</text>
+  <text x="683.2953964194373" y="451.0" class="bar-sub-text">d=33</text>
+  <rect x="903.2813299232736" y="410.0" width="106.6598465473146" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="956.6112531969309" y="438.0" class="setup-main-text">J4</text>
+  <text x="956.6112531969309" y="451.0" class="setup-sub-text">d=8</text>
+  <rect x="1009.9411764705882" y="410.0" width="373.3094629156011" height="60" fill="#f1c40f" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="1196.5959079283887" y="438.0" class="bar-main-text">J4</text>
+  <text x="1196.5959079283887" y="451.0" class="bar-sub-text">d=28</text>
+  <rect x="1383.2506393861893" y="410.0" width="213.31969309462897" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="1489.9104859335039" y="438.0" class="setup-main-text">J8</text>
+  <text x="1489.9104859335039" y="451.0" class="setup-sub-text">d=16</text>
+  <rect x="1596.5703324808183" y="410.0" width="359.9769820971867" height="60" fill="#34495e" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="1776.5588235294117" y="438.0" class="bar-main-text">J8</text>
+  <text x="1776.5588235294117" y="451.0" class="bar-sub-text">d=27</text>
+  <rect x="1956.547314578005" y="410.0" width="119.9923273657289" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2016.5434782608695" y="438.0" class="setup-main-text">J1</text>
+  <text x="2016.5434782608695" y="451.0" class="setup-sub-text">d=9</text>
+  <rect x="2076.539641943734" y="410.0" width="479.9693094629156" height="60" fill="#3498db" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="2316.5242966751916" y="438.0" class="bar-main-text">J1</text>
+  <text x="2316.5242966751916" y="451.0" class="bar-sub-text">d=36</text>
+  <rect x="2556.5089514066494" y="410.0" width="93.32736572890008" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="2603.1726342710995" y="438.0" class="setup-main-text">J5</text>
+  <text x="2603.1726342710995" y="451.0" class="setup-sub-text">d=7</text>
+  <rect x="2649.8363171355495" y="410.0" width="493.30179028133034" height="60" fill="#e67e22" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="2896.4872122762144" y="438.0" class="bar-main-text">J5</text>
+  <text x="2896.4872122762144" y="451.0" class="bar-sub-text">d=37</text>
+  <rect x="3143.13810741688" y="410.0" width="79.99488491048578" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="3183.1355498721227" y="438.0" class="setup-main-text">J7</text>
+  <text x="3183.1355498721227" y="451.0" class="setup-sub-text">d=6</text>
+  <rect x="3223.1329923273656" y="410.0" width="559.9641943734014" height="60" fill="#1abc9c" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="3503.1150895140663" y="438.0" class="bar-main-text">J7</text>
+  <text x="3503.1150895140663" y="451.0" class="bar-sub-text">d=42</text>
+  <rect x="3783.097186700767" y="410.0" width="159.98976982097201" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="3863.0920716112532" y="438.0" class="setup-main-text">J2</text>
+  <text x="3863.0920716112532" y="451.0" class="setup-sub-text">d=12</text>
+  <rect x="3943.086956521739" y="410.0" width="759.9514066496158" height="60" fill="#2ecc71" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="4323.062659846547" y="438.0" class="bar-main-text">J2</text>
+  <text x="4323.062659846547" y="451.0" class="bar-sub-text">d=57</text>
+  <rect x="4703.038363171355" y="410.0" width="119.99232736572958" height="60" fill="url(#diagonal-stripe)" stroke="#95a5a6" stroke-width="0.8" rx="2"/>
+  <text x="4763.03452685422" y="438.0" class="setup-main-text">J6</text>
+  <text x="4763.03452685422" y="451.0" class="setup-sub-text">d=9</text>
+  <rect x="4823.030690537084" y="410.0" width="479.9693094629156" height="60" fill="#e74c3c" rx="4" stroke="#2c3e50" stroke-width="0.5" />
+  <text x="5063.015345268543" y="438.0" class="bar-main-text">J6</text>
+  <text x="5063.015345268543" y="451.0" class="bar-sub-text">d=36</text>
+  <line x1="90" y1="90" x2="90" y2="490" stroke="#2c3e50" stroke-width="2" />
+  <line x1="90" y1="490" x2="5303.0" y2="490" stroke="#2c3e50" stroke-width="2" />
+</svg>
