@@ -21,7 +21,7 @@ alns:
 
 # Gurobi refinement parameters configuration
 gurobi_refinement:
-  use_gurobi_refinement: true # Whether to perform Gurobi refinement after ALNS
+  use_gurobi_refinement: false # Whether to perform Gurobi refinement after ALNS
   time_limit: 300 # Time limit for Gurobi refinement in seconds
 
 
