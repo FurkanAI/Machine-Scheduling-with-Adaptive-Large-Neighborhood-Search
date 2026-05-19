@@ -35,6 +35,8 @@ The optimization payload containing the concrete decoded scheduling choices.
 | `runtime` | `float` | The runtime of the alns. |
 
 ### 4. The `gurobi_refinement` Block
+| Key | Type | Description |
+| :--- | :--- | :--- |
 | `completion_times` | `List[float]` | An array where index $i$ corresponds to the exact absolute completion time ($C_i$) of Job $i$. Result of gurobi_refinement. |
 | `cost` | `float` | The final weighted multi-objective fitness value ($Z$) of the solution. Result of gurobi_refinement. |
 | `runtime` | `float` | The runtime of the gurobi_refinement. |
